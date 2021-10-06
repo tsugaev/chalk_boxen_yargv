@@ -20,7 +20,7 @@ console.log(process.argv)
 const login = process.argv[3]
 const password = process.argv[5]
 
-if (login === 'admin' && password === 'qwer'){
+if (login === "admin" && password === "qwer"){
     console.log(boxen(chalk.bold.green('welcome'), {borderColor: 'green'}))
 }else{
     console.log(boxen(chalk.bold.red('error'), {borderColor: 'red'}))
